@@ -4,7 +4,7 @@ import java.util.Random;
 public class Demo {
 	public static void main(String[] args) {
 		Random random = new Random();
-		String[] name = {"Íõ","²Ü","º«","ÓÚ"};
+		String[] name = {"çŽ‹","æ›¹","éŸ©","äºŽ"};
 		int num = (int)(Math.random() * 1000);
 		while (num>name.length-1) {
 	         if (num<=name.length-1) {
@@ -12,7 +12,8 @@ public class Demo {
 	   }
 	          num = (int)(Math.random() * 1000);
 	  }
-	//½«Êý×éÏÂ±êÉèÖÃ³ÉËæ»úÊý£¬¾Í¿ÉÒÔÊµÏÖÈËÃûµÄËæ»ú³éÈ¡
-	       System.out.println("±»³éµ½µÄÊÇ£º"+name[num]);
+	//å°†æ•°ç»„ä¸‹æ ‡è®¾ç½®æˆéšæœºæ•°ï¼Œå°±å¯ä»¥å®žçŽ°äººåçš„éšæœºæŠ½å–
+	       System.out.println("è¢«æŠ½åˆ°çš„æ˜¯ï¼š"+name[num]);
 	}
 }
+//edit
